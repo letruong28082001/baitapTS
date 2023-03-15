@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sub_container{
+    width: 60vw;
+    height: 60vh;
+    margin: 0 auto;
+    border: 1px solid #7faced;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content_left{
+    width: 45%;
+    border: 1px solid #7faced;
+    height: 50vh;
+    margin-top: 4%;
+    margin-left: 2.5%;
+}
+.content_left_top{
+    padding: 20px;
+    width: 100%;
+    height: 70%;
+    border-bottom: 1px solid #333;
+    overflow-y: auto;
+}
+.content_left-bottom{
+    height: 20%;
+}
+.content_left_select{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 8px 4px;
+    margin-left: -41px;
+}
+
+#input_left{
+    padding: 10px 0;
+    margin-right: 25px;
+    margin-left: 10px;
+    width: 220px;
+}
+.content_Left_send{
+    display: flex;
+}
+
+#btn_send_left{
+    padding: 7px 18px;
+}
+
+.output_left .left{
+    text-align: start;
+    background-color: darksalmon;
+    width: 67%;
+    overflow-x: hidden;
+    border-radius: 20px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 8px;
+}
+.output_left .right {
+    text-align: start;
+    text-align: start;
+    margin-left: 105px;
+    width: 67%;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 5px 8px;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+.output_right .left{
+    text-align: start;
+    background-color: darksalmon;
+    width: 67%;
+    overflow-x: hidden;
+    border-radius: 20px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 8px;
+}
+.output_right .right {
+    text-align: start;
+    margin-left: 105px;
+    width: 67%;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 5px 8px;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+
+/* ----------------------- */
+
+.content_right{
+    width: 45%;
+    border: 1px solid #7faced;
+    height: 50vh;
+    margin-top: 4%;
+    margin-right: 2.5%;
+}
+.content_right_top{
+    padding: 20px;
+    width: 100%;
+    height: 70%;
+    border-bottom: 1px solid #7faced;
+    overflow-y: auto;
+}
+.content_right-bottom{
+    height: 20%;
+}
+.content_right_select{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 8px 4px;
+    margin-left: -41px;
+}
+.content_right_send{
+    display: flex;
+}
+
+#input_right{
+    padding: 10px 0;
+    margin-right: 25px;
+    margin-left: 10px;
+    width: 220px;
+}
+
+#btn_send_right{
+    padding: 7px 18px;
+}
